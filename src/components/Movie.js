@@ -6,7 +6,7 @@ const Movie = (props) => {
       <h1>Lord of the Rings: {props.title}</h1>
       <img src={props.poster} />
       <p>
-        Runtime: {props.hours} hours and {props.minutes} minutes
+        Runtime: {props.hours} hrs, {props.minutes} min
       </p>
     </div>
   )
